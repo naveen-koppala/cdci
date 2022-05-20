@@ -1,8 +1,8 @@
 const express = require('express');
 const app = express();
-app.get('/', (req, res) => {
+app.get('/hello', (req, res) => {
     res.json({
-        message : "Hello Backend"
+        message: "Hello Backend"
     })
 })
 
